@@ -60,7 +60,7 @@ botaoScanear.onclick =async ()=>{
         resultado.innerText="Erro no processamento",erro
      }
      finally{ 
-        //desabilita o botão para fazer nova captura
+        //desabilita o botão p fazer nova captura
             botaoScanear.disabled=false; 
      }
 
